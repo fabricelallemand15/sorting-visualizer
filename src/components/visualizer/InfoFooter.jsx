@@ -9,8 +9,8 @@ const InfoFlex = styled.div`
 export function InfoFooter({ swapCount, comparisionCount, children }) {
   return (
     <InfoFlex>
-      <div>Swaps: <strong>{swapCount}</strong></div>
-      <div>Comparisions: <strong>{comparisionCount}</strong></div>
+      <div>Échanges : <strong>{swapCount}</strong></div>
+      <div>Comparaisons : <strong>{comparisionCount}</strong></div>
     </InfoFlex>
   );
 }

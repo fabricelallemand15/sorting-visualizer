@@ -15,7 +15,7 @@ const Container = styled.div`
 export default function App() {
   return (
     <Container>
-      <NavBar />
+      {/* <NavBar /> */}
       <Controller />
       <AlgoDisplay />
       <Footer />

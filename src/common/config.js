@@ -20,12 +20,12 @@ export let compareTime = 500;
 export let sortingArray = initArrayForScreenSize();
 
 export const sortingAlgorithms = [
-  { component: BubbleSort, title: "Bubble", name: "BubbleSort" },
-  { component: SelectionSort, title: "Selection", name: "SelectionSort" },
-  { component: InsertionSort, title: "Insertion", name: "InsertionSort" },
-  { component: HeapSort, title: "Heap", name: "HeapSort" },
-  { component: MergeSort, title: "Merge", name: "MergeSort" },
-  { component: QuickSort, title: "Quick", name: "QuickSort" },
+  // { component: BubbleSort, title: "Bubble", name: "BubbleSort" },
+  { component: SelectionSort, title: "Selection", name: "Tri par sélection" },
+  // { component: InsertionSort, title: "Insertion", name: "Tri par insertion" },
+  // { component: HeapSort, title: "Heap", name: "HeapSort" },
+  // { component: MergeSort, title: "Merge", name: "MergeSort" },
+  // { component: QuickSort, title: "Quick", name: "QuickSort" },
 ];
 
 function initArrayForScreenSize() {

@@ -119,12 +119,12 @@ export function Controller() {
           color="primary"
           onClick={generate}
         >
-          Generate
+          Nouveau
         </Button>
 
         <TextField
           id="outlined-basic"
-          label="Input"
+          label="Tableau"
           variant="outlined"
           onChange={(event) => arrayDataChangeHandler(event.target.value)}
           value={arrayInput}

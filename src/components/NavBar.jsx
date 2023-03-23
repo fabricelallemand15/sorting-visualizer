@@ -60,7 +60,7 @@ export function NavBar() {
               key={algorithm.title}
             />
           ))}
-          <Tab label="All" {...a11yProps(6)} />
+          {/* <Tab label="All" {...a11yProps(6)} /> */}
         </Tabs>
       </AppBar>
     </div>
